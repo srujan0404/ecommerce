@@ -33,7 +33,30 @@ p{
 }
 
 .section-m1{
-    margin: 40px 0;
+    margin: 60px 0;
+}
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.3s ease;
+}
+button.white {
+    font-size: 143x;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent; 
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.3s ease-in-out;
 }
 
 body{
@@ -184,6 +207,12 @@ body{
     margin: 15px 0;
     transition: 0.2s ease;
 }
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
 #product1 .pro:hover{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.07);
 }
@@ -229,4 +258,107 @@ body{
     /* position: absolute; */
     bottom: 108px;
     margin-right: 261px;
+}
+#banner{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(banner/b2.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner h4{
+    color: white;
+    font-size: 16px;
+}
+#banner h2{
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+#banner h2 span{
+    color: #ef3636; 
+}
+#banner button:hover{
+    background-color: #088178;
+    color: white;
+}
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#sm-banner .banner-box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background-image: url(banner/b17.jpg);
+        min-width: 620px;
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+        padding: 30px;
+}
+#sm-banner .banner-box2{
+    background-image: url(banner/b10.jpg);
+}
+#sm-banner h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+#sm-banner h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+#sm-banner span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#sm-banner .banner-box:hover button{
+    background-color: #088178;
+    border: 1px solid #088178;
+}
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url(banner/b7.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#banner3 .banner-box h2{
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+}
+#banner3 .banner-box h3 {
+    color: #ef3636;
+    font-weight: 800;
+    font-size: 15px;
+}
+#banner3 .box2{
+    background-image: url(banner/b4.jpg);
+}
+#banner3 .box3{
+    background-image: url(banner/b18.jpg);
 }

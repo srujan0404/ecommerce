@@ -298,7 +298,7 @@ body{
         align-items: flex-start;
         justify-content: center;
         background-image: url(banner/b17.jpg);
-        min-width: 620px;
+        min-width: 855px;
         height: 50vh;
         background-size: cover;
         background-position: center;
@@ -361,4 +361,14 @@ body{
 }
 #banner3 .box3{
     background-image: url(banner/b18.jpg);
+}
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
 }

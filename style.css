@@ -30,6 +30,7 @@ p{
 }
 .section-p1{
     margin: 40px 80px;
+    overflow: hidden;
 }
 
 .section-m1{
@@ -60,7 +61,6 @@ button.white {
 }
 
 body{
-    width: 100%;
 }
 #header{
     display: flex;
@@ -76,6 +76,7 @@ body{
 }
 #header a img{
     width: 35px;
+    /* margin: -14px 56px; */
 }
 #navbar{
     display: flex;
@@ -136,12 +137,14 @@ body{
      background-image: url(button-removebg-preview.png);
      background-color: transparent;
      color: #000000;
-     font-size: 15px;
+     font-size: 25px;
+     text-align: center;
      background-size: 50%;
+     background-position: center;
      display: flex;
      background-repeat: no-repeat;
      border: 0;
-     padding: 37px 31px 14px 65px;
+     padding: 37px 37px 40px 40px;
      cursor: pointer;
      font-weight: 700;
 }
@@ -164,6 +167,7 @@ body{
 }
 #feature .fe-box:hover{
     box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.4);
+    cursor: pointer;
 }
 #feature .fe-box img{
     width: 100%;
@@ -215,6 +219,17 @@ body{
 }
 #product1 .pro:hover{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.07);
+}
+#product1 .pro-container .pro:hover{
+    filter: blur(0px);
+    filter: saturate(150%);
+}
+#product1:hover .pro{
+    filter: blur(1px);
+}
+#product1 .pro-container .pro a{
+    margin: 442px 255px;
+    margin-top: 25px;
 }
 #product1 .pro img{
     width: 100%;

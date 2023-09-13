@@ -323,6 +323,9 @@ body{
 #sm-banner .banner-box2{
     background-image: url(banner/b10.jpg);
 }
+.pro-container .pro a i{
+    width: 23px 23px;
+}
 #sm-banner h4{
     color: #fff;
     font-size: 20px;
@@ -479,4 +482,107 @@ footer a:hover{
 footer .copyright{
     width: 100%;
     text-align: center;
+}
+
+
+/* shop page */
+#page-header{
+    background-image: url(banner/pexels-chevanon-photography-333528.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    line-height: 23px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+#pages{
+    text-align: center; 
+    color: white;
+}
+#pages a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+}
+#pages a:hover {
+    text-decoration: none;
+    background-color: #3cb7ae;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600; 
+}
+#pages a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* single photo */
+#productdetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px; 
+}
+.samll-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#productdetails{
+    display: flex;
+    margin-top: 20px;
+
+}
+#productdetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+#productdetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+#productdetails .single-pro-details h2 {
+    font-size: 26px;
+}
+#productdetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    background: #2a2f3b;
+    color: #fff;
+    border: 2px #2a2f3b solid;
+    border-radius: 0.5rem;
+    padding: 1em;
+    cursor: pointer;
+    transition: background 0.3s ;
+}
+#productdetails .single-pro-details select:hover{
+    background: #323741;
+}
+#productdetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    outline: none;
+}
+#productdetails .single-pro-details button{
+    background-color: #088178;
+    color: white;
+    transition: 0.3s color ease-in-out;
+}
+#productdetails .single-pro-details button:hover {
+    background-color: #b3f4f4;
+    color: black;
+}
+#productdetails .single-pro-details span{
+    line-height: 25px;
+
 }

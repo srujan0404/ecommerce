@@ -774,5 +774,5 @@ footer .copyright{
 }
 #form-details form button:hover {
     background-color: #82f6ee;
-    color: black;
+    color: white;  /*change the color again to black*/
 }

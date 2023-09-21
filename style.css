@@ -887,5 +887,5 @@ footer .copyright{
 }
 #subtotal button:hover {
     background-color: #86e7e0;
-    color: black;
+    color: white; /*cahnge this black*/
 }
